@@ -71,13 +71,15 @@
 }
 
 #icons {
-  color: #505f79;
   padding: 58px;
   font-size: 20px;
+  list-style: none;
   display: flex;
   justify-content: space-around;
 }
-
+a {
+  color: #505f79;
+}
 .arrow-down {
   display: flex;
   justify-content: center;
