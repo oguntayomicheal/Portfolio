@@ -1,0 +1,85 @@
+#welcome {
+  width: 90px;
+  height: 28px;
+  padding: 10px 12px;
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  color: #28352f;
+}
+
+.material-icons {
+  color: #28352f;
+  margin-right: 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+#headline {
+  height: 726px;
+  background-image: url(Headline-bgd-img.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+}
+
+#name {
+  width: 327px;
+  height: 192px;
+  font-family: Inter, Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  text-align: center;
+  color: #172b4d;
+}
+
+#job {
+  width: 327px;
+  height: 192px;
+  font-family: Inter, Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  text-align: center;
+  color: #36b37e;
+}
+
+#story {
+  width: 327px;
+  height: 164px;
+  font-family: Inter, Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  color: #172b4d;
+}
+
+#icons {
+  color: #505f79;
+  padding: 58px;
+  font-size: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.arrow-down {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
