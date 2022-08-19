@@ -141,7 +141,8 @@ a {
   line-height: 16px;
   letter-spacing: 0.03em;
   text-align: center;
-  padding: 3px 3px 3px 3px;
+  padding: 5px 10px;
+  border-radius: 4px;
 }
 
 .boxed_flex {
@@ -163,7 +164,7 @@ a {
   border-radius: 4px;
   background-color: #36b37f;
   color: white;
-  height: 48px;
+  height: 40px;
   text-align: center;
   font-family: Inter, Arial, Helvetica, sans-serif;
   font-style: normal;
@@ -171,6 +172,7 @@ a {
   font-size: 17px;
   line-height: 24px;
   margin-top: 30px;
+  padding: 0 20px;
 }
 
 /* About me */
@@ -229,7 +231,8 @@ a {
   line-height: 16px;
   letter-spacing: 0.03em;
   text-align: center;
-  padding: 3px 3px 3px 3px;
+  padding: 5px 10px;
+  border-radius: 8px;
 }
 
 .space {
@@ -268,4 +271,5 @@ a {
   font-size: 20px;
   line-height: 28px;
   color: #172b4d;
+  text-align: center;
 }
