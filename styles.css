@@ -254,7 +254,7 @@ a {
   height: 30%;
   border-style: hidden;
   box-sizing: border-box;
-  border: 1px solid #60C095;
+  border: 1px solid #60c095;
   border-radius: 4px;
 }
 
@@ -300,4 +300,10 @@ input {
   line-height: 28px;
   color: #172b4d;
   text-align: center;
+  padding-left: 50px;
+}
+
+#contact_form_img {
+  width: 40px;
+  float: right;
 }
