@@ -13,9 +13,9 @@
 <body>
     <div id="nav_large_screen">
             <nav id="navbar">
-                <a id="nav" href="#my_works">Portfolio</a>
-                <a id="nav" href="#about_me">About</a>
-                <a id="nav" href="#form_flex">Contact</a>
+                <a class="nav" href="#my_works">Portfolio</a>
+                <a class="nav" href="#about_me">About</a>
+                <a class="nav" href="#form_flex">Contact</a>
             </nav>        
     </div>
     
@@ -263,16 +263,18 @@
                 <p class="h2_style h2_style_form">I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</p>
                 
                  <div class="center1" >
-                    <form action="https://formspree.io/f/xvoyggzp" method="POST"></form>
-                    <input type="text" name="name" placeholder="full name" maxlength="30" class="stretch" required>
-                    <input type="email" name="email" placeholder="Email address"  class="stretch"required>
-                    
-                    <textarea name="message" maxlength="500" placeholder="Enter text here" class="comment stretch" required></textarea>
-                    
-                    <div class="button_left">
-                        <button type="submit" class="button3 email_flex">Get in touch</button>
-                    </div>
-                </form>
+                    <form action="https://formspree.io/f/xvoyggzp" method="POST" id="form">
+                        <input type="text" name="name" placeholder="full name" maxlength="30" class="stretch" required>
+                        <input type="email" name="email" placeholder="Email address"  class="stretch" required>
+                        
+                        <textarea name="message" maxlength="500" placeholder="Enter text here" class="comment stretch" required></textarea>
+                        
+                        <div class="button_left">
+                            <button type="submit" class="button3 email_flex">Get in touch</button>
+                        </div>
+                    </form>
+                   
+                
                 </div>
                
             </div>

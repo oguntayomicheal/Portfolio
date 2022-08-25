@@ -147,7 +147,7 @@ a {
     align-items: center;
   }
 
-  #nav {
+  .nav {
     text-decoration: none;
     margin: 0 20px;
   }
@@ -253,6 +253,14 @@ a {
 
   .form_width {
     width: 100%;
+  }
+
+  #form {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
   }
 
   .button_left {
@@ -370,7 +378,6 @@ a {
   color: #172b4d;
   text-align: center;
 }
-
 
 /* language */
 
