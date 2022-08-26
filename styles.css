@@ -127,12 +127,8 @@ a {
 
 @media screen and (min-width: 768px) {
   #navbar {
-    /* display: contents; */
     display: inline;
     padding: 0;
-
-    /* gap: 20px; */
-
     position: absolute;
     top: 16px;
     font-family: Inter, Arial, Helvetica, sans-serif;
@@ -141,6 +137,11 @@ a {
     font-size: 15px;
     line-height: 20px;
     color: #344563;
+    transition: font-size;
+  }
+
+  #navbar:hover {
+    font-size: 40px;
   }
 
   #nav_large_screen {
