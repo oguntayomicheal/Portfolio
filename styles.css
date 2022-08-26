@@ -355,6 +355,8 @@ a {
   font-size: 17px;
   line-height: 24px;
   padding: 0 8px;
+  transition: all;
+  transition-duration: 2s;
 }
 
 /* About me */
@@ -439,6 +441,7 @@ a {
 .button3.email_flex {
   padding: 0 12px;
   margin: 0 0 0;
+
 }
 
 .comment {
@@ -489,6 +492,8 @@ input {
   padding: 0 20px;
   display: flex;
   flex-direction: column;
+  transition: all;
+  transition-duration: 2s;
 }
 
 .email_flex {
