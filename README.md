@@ -2,7 +2,7 @@
 
 # My Portfolio website
 
-> Responsive website
+> This is a Responsive website.
 
 
 ## Built With
@@ -10,12 +10,9 @@
 - Html
 - css
 
-## Live Demo (if available)
+## Live Demo 
 
-None
-
-
-
+> https://mike-devloper.github.io/Portfolio-Mobile/
 
 ## Authors
 
