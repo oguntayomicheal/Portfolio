@@ -5,7 +5,7 @@
 
 #menu {
   display: none;
-  height: 400px;
+  height: 100vh;
   width: 100%;
   background-color: #f7f7f9;
 }
@@ -19,7 +19,7 @@
 }
 
 #menulist {
-  height: 350px;
+  height: 90%;
   width: 100%;
   background-color: #fff;
   border-radius: 0 0 40px 40px;
@@ -36,7 +36,8 @@
   font-style: normal;
   font-weight: 600;
   font-size: 32px;
-  line-height: 44px;
+  line-height: 80px;
+  height: 50%;
 }
 
 #img_shape {
