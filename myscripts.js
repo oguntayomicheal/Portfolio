@@ -13,3 +13,7 @@ document.getElementById("menu_icon").addEventListener('click', mobileMenu);
 
 document.getElementById("close_icon").addEventListener('click', mobileMenu);
 
+let menu_list = document.querySelectorAll(".menu_list");
+for (i = 0; i<menu_list.length; i++) {
+    menu_list[i].addEventListener("click", mobileMenu);
+}
