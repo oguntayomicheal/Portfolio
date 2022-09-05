@@ -1,3 +1,51 @@
+#header_display{
+  width: 100%;
+  height: 100%;
+}
+
+#menu {
+  display: none ;
+  height: 400px;
+  width: 100%;
+  background-color: #F7F7F9;
+}
+#menu_flex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+}
+
+#menulist {
+  height: 350px;
+  width: 100%;
+  background-color: #FFFFFF;
+  border-radius: 0px 0px 40px 40px;
+}
+#menu_liststyle a {
+ text-decoration: none;
+ color: #3A4A42;
+
+}
+#menu_liststyle{
+  list-style: none;
+  font-family: Inter, Arial, Helvetica, sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 32px;
+line-height: 44px;
+}
+
+#img_shape{
+  margin-bottom: 5px;
+}
+#close_icon {
+  float: right;
+  margin-right: 20px;
+}
+
+
 #welcome {
   width: 90px;
   height: 28px;
