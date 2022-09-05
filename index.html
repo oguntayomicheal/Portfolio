@@ -11,14 +11,30 @@
 </head>
 
 <body>
+    <div id="header_display">
     <header class="header">
         <div>
             <a href="index.html" id="welcome">Welcome</a>
         </div>
         <nav>
-            <img src="icons/menu.png" class="material-icons" alt="menu icon">
+           <a href="#"><img src="icons/menu.png" class="material-icons"  id="menu_icon"></a>
         </nav>  
     </header>
+    </div>
+    <div id="menu"> 
+    <div id="menu_flex">
+        <div id="menulist">
+            <a href=""><img src="images/mobile menu/Icon.png" id="close_icon"> </a>
+            <ul id="menu_liststyle">
+                <li><a href="#my_works" class="menu_list">Portfolio</a></li>
+                <li><a href="#about_me" class="menu_list">About</a></li>
+                <li><a href="#contact_me" class="menu_list">Contact</a></li>
+            </ul>
+        </div>
+        <img src="images/mobile menu/Shape.png" id="img_shape">
+    </div>
+    </div>
+
     <section id="headline">
         <div class="center">
                 <h1 id="name"><b> Hey there. I’m Micheal</b> <br>
@@ -269,7 +285,7 @@
     </div>
 
   <footer>
-    <div>
+    <div id="contact_me">
         <p class="h2_style">I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</p>
         <form action="https://formspree.io/f/xvoyggzp" method="POST">
             <div class="center1" >
@@ -308,6 +324,7 @@
         </div>
         
   </footer>  
+  <script src="myscripts.js"></script>
 
 </body>
 
