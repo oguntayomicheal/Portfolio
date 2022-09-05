@@ -1,12 +1,12 @@
 function mobileMenu (){
-    let z = document.getElementById("header_display")
-    var x = document.getElementById("menu")
-    if (x.style.display === "block"){
-        x.style.display = "none";
-        z.style.display = "block";
+    let headerDisplay = document.getElementById("header_display")
+    var menu = document.getElementById("menu")
+    if (menu.style.display === "block"){
+        menu.style.display = "none";
+        headerDisplay.style.display = "block";
     } else {
-        x.style.display = "block";
-        z.style.display = "none";
+        menu.style.display = "block";
+        headerDisplay.style.display = "none";
     }
 }
 document.getElementById("menu_icon").addEventListener('click', mobileMenu);
