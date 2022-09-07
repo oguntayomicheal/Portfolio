@@ -574,8 +574,6 @@ input {
   padding-left: 50px;
 }
 
-
-
 /* Popup window */
 .project_background {
   display: none;
@@ -716,4 +714,3 @@ input {
   flex-direction: row-reverse;
   padding-top: 40px;
 }
-
