@@ -640,9 +640,8 @@ input {
 .boxed_flex_pop {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
   flex-wrap: wrap;
-  gap: 5px;
+  gap: 6px;
 }
 
 .boxed_pop {
