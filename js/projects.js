@@ -13,7 +13,7 @@ const projectData = [
 
 
 document.querySelector('.project').innerHTML = projectData.map(
-    (info) => `
+    (info) =>  `
     <div class="project_background">
     <div class="project-container">
         <div class="img_close">
@@ -28,7 +28,7 @@ document.querySelector('.project').innerHTML = projectData.map(
                         <div class="boxed_pop">${info.technologies.lang1}</div>
                         <div class="boxed_pop">${info.technologies.lang2}</div>
                         <div class="boxed_pop">${info.technologies.lang3}</div>
-                        <div class="boxed_pop">${info.technologies.lang4}</div>
+                        <div class="boxed_pop">${info.technologies.lang3}</div>
             </div>
           </div>
 
@@ -86,3 +86,4 @@ document.querySelectorAll('.close').forEach((close) => {
       });
     });
   });
+

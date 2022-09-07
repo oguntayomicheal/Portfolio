@@ -621,8 +621,6 @@ input {
 .title_tech {
   height: auto;
   width: 100%;
-
-  /* margin: 5% 0% 0% 2%; */
 }
 
 .title_tech_flex {
@@ -686,9 +684,6 @@ input {
     align-items: center;
   }
 
-  /* .popclick {
-  width: auto;
-} */
 
   .pop_icon {
     width: 25px;
