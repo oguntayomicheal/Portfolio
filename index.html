@@ -162,7 +162,7 @@
                 <div class="center1" >
                     <form action="https://formspree.io/f/xvoyggzp" method="POST" id="form">
                         <input type="text" name="name" placeholder="full name" maxlength="30" class="stretch" required>
-                        <input type="email" name="email" placeholder="Email address"  class="stretch" required>
+                        <input type="email" name="email" placeholder="Email address"  class="stretch" id="email" required>
                         
                         <textarea name="message" maxlength="500" placeholder="Enter text here" class="comment stretch" required></textarea>
                         
@@ -170,6 +170,7 @@
                             <button type="submit" class="button3 email_flex">Get in touch</button>
                         </div>
                     </form>
+                    <span id="error"></span>
                 </div>
                
             </div>
@@ -202,8 +203,9 @@
         
   </footer>  
   <section class="project"></section>
-  <script src="js/myscripts.js"></script>
+  <script src="./js/myscripts.js"></script>
   <script src="./js/projects.js" type="module"></script>
+  <script src="./js/emailvalidate.js"></script>
 
 
 </body>
