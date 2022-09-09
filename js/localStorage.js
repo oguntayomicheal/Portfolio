@@ -9,3 +9,12 @@ formInfo.addEventListener('change', (e) => {
     localStorage.setItem('formDetails', JSON.stringify(details));
 });
 
+const getDetails = localStorage.getItem('formDetails');
+const eachValue = JSON.parse(getDetails);
+window.addEventListener('DOMContentLoaded', () => {
+    if (localStorage.getItem('formDetails')){
+        document.getElementById('saveName1').value = eachValue.fullname;
+        document.getElementById('saveEmail').value = eachValue.email;
+        document.getElementById('saveComment').value = eachValue.comment;
+    }
+});
