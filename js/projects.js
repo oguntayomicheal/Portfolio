@@ -1,6 +1,6 @@
 const projectData = [
     {
-        name : "Multi-Post Stories Gain+Glory",
+        name : "Multi-Post Stories Gain+Glory 1",
         description : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
         featuredImage : "./images/Project-images/Snapshoot_Portfolio.png",
         technologies : {lang1 : "ruby", lang2 : "html", lang3 : "css",lang4 :  "javascript"},
@@ -8,7 +8,7 @@ const projectData = [
         sourceLink : "https://github.com/Mike-devloper/Portfolio-Mobile",
     },
     {
-      name : "Multi-Post Stories Gain+Glory",
+      name : "Multi-Post Stories Gain+Glory 2",
       description : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
       featuredImage : "./images/Project-images/Snapshoot_Portfolio.png",
       technologies : {lang1 : "ruby", lang2 : "html", lang3 : "css",lang4 :  "javascript"},
@@ -16,7 +16,7 @@ const projectData = [
       sourceLink : "https://github.com/Mike-devloper/Portfolio-Mobile",
   },
   {
-    name : "Multi-Post Stories Gain+Glory",
+    name : "Multi-Post Stories Gain+Glory 3",
     description : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
     featuredImage : "./images/Project-images/Snapshoot_Portfolio.png",
     technologies : {lang1 : "ruby", lang2 : "html", lang3 : "css",lang4 :  "javascript"},
@@ -24,7 +24,7 @@ const projectData = [
     sourceLink : "https://github.com/Mike-devloper/Portfolio-Mobile",
 },
 {
-  name : "Multi-Post Stories Gain+Glory",
+  name : "Multi-Post Stories Gain+Glory 4",
   description : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
   featuredImage : "./images/Project-images/Snapshoot_Portfolio.png",
   technologies : {lang1 : "ruby", lang2 : "html", lang3 : "css",lang4 :  "javascript"},
@@ -32,7 +32,7 @@ const projectData = [
   sourceLink : "https://github.com/Mike-devloper/Portfolio-Mobile",
 },
 {
-  name : "Multi-Post Stories Gain+Glory",
+  name : "Multi-Post Stories Gain+Glory 5",
   description : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
   featuredImage : "./images/Project-images/Snapshoot_Portfolio.png",
   technologies : {lang1 : "ruby", lang2 : "html", lang3 : "css",lang4 :  "javascript"},
@@ -40,7 +40,7 @@ const projectData = [
   sourceLink : "https://github.com/Mike-devloper/Portfolio-Mobile",
 },
 {
-  name : "Multi-Post Stories Gain+Glory",
+  name : "Multi-Post Stories Gain+Glory 6",
   description : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
   featuredImage : "./images/Project-images/Snapshoot_Portfolio.png",
   technologies : {lang1 : "ruby", lang2 : "html", lang3 : "css",lang4 :  "javascript"},
@@ -71,12 +71,6 @@ const projectData = [
  `,
  )
 .join('');
-
-for (let i = 0; i <= projectData.length; i += 1) {
-  if (i % 2 === 1) {
-    document.querySelectorAll('.grid-container')[i].classList.add('order');
-  }
-}     
 
 
 document.querySelector('.project').innerHTML = projectData.map(
@@ -137,15 +131,18 @@ document.querySelector('.project').innerHTML = projectData.map(
   .join('');
 
 
-document.querySelectorAll('.See_Project').forEach((See_Project) => {
-    See_Project.addEventListener('click', () => {
-      document.querySelectorAll('.project_background').forEach((project_background) => {
-        project_background.style.display = 'block';
-      });
+  // Popup window
+for (let i = 0; i <= projectData.length; i++) {
+  const See_Project = Array.from(document.querySelectorAll('.See_Project'));
+  const popup = Array.from(document.querySelectorAll('.project_background'));
+
+  const AllSee_Project = See_Project.map((button, i) => [button, popup[i]]);
+  AllSee_Project.forEach((each) => {
+    each[0].addEventListener('click', () => {
+      each[1].style.display = 'block';
     });
   });
-
-
+}
 
 document.querySelectorAll('.close').forEach((close) => {
     close.addEventListener('click', () => {
@@ -155,3 +152,4 @@ document.querySelectorAll('.close').forEach((close) => {
     });
   });
 
+  
