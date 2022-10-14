@@ -191,10 +191,6 @@ a {
     transition: font-size;
   }
 
-  #navbar:hover {
-    font-size: 40px;
-  }
-
   #nav_large_screen {
     width: 100%;
     display: flex;
