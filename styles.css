@@ -751,6 +751,17 @@ input {
   padding-top: 40px;
 }
 
+/* Email Error message */
+#error {
+  font-family: Inter, Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ef0707;
+}
+
+/* Portfolio update */
 .snapshoot1 {
   width: 100%;
   height: 100%;
