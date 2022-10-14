@@ -13,7 +13,7 @@
 
 ## Live Demo 
 
-> [Live Demo Link]( https://oguntayomicheal.github.io/Portfolio/)
+> [Live Demo Link](https://oguntayomicheal.github.io/Portfolio/)
 
 
 ## Getting Started

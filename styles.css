@@ -378,7 +378,7 @@ a {
   line-height: 32px;
   display: flex;
   align-items: center;
-  text-align: center;
+  justify-content: center;
   color: #3a4a42;
 }
 
@@ -749,4 +749,9 @@ input {
   display: flex;
   flex-direction: row-reverse;
   padding-top: 40px;
+}
+
+.snapshoot1 {
+  width: 100%;
+  height: 100%;
 }

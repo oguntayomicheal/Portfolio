@@ -1,17 +1,17 @@
 const projectData = [
     {
-        name : "Multi-Post Stories Gain+Glory 1",
-        description : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
-        featuredImage : "./images/Project-images/Snapshoot_Portfolio.png",
-        technologies : {lang1 : "ruby", lang2 : "html", lang3 : "css",lang4 :  "javascript"},
-        liveLink : " https://mike-devloper.github.io/Portfolio-Mobile/",
-        sourceLink : "https://github.com/Mike-devloper/Portfolio-Mobile",
+        name : "Science Fun Facts",
+        description : "This is a website for learners to check out Science Facts, famous scientists, and also ongoing scientific research works.",
+        featuredImage : "./images/Project-images/Sci_facts.png",
+        technologies : {lang1 : "HTML", lang2 : "CSS", lang3 : "JavaScript"},
+        liveLink : "https://oguntayomicheal.github.io/Module-1-Microverse-Capstone-project-/",
+        sourceLink : "https://github.com/oguntayomicheal/Module-1-Microverse-Capstone-project-",
     },
     {
       name : "Multi-Post Stories Gain+Glory 2",
       description : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
       featuredImage : "./images/Project-images/Snapshoot_Portfolio.png",
-      technologies : {lang1 : "ruby", lang2 : "html", lang3 : "css",lang4 :  "javascript"},
+      technologies : ["HTML","CSS","JavaScript"],
       liveLink : " https://mike-devloper.github.io/Portfolio-Mobile/",
       sourceLink : "https://github.com/Mike-devloper/Portfolio-Mobile",
   },
@@ -19,7 +19,7 @@ const projectData = [
     name : "Multi-Post Stories Gain+Glory 3",
     description : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
     featuredImage : "./images/Project-images/Snapshoot_Portfolio.png",
-    technologies : {lang1 : "ruby", lang2 : "html", lang3 : "css",lang4 :  "javascript"},
+    technologies : ["HTML","CSS","JavaScript"],
     liveLink : " https://mike-devloper.github.io/Portfolio-Mobile/",
     sourceLink : "https://github.com/Mike-devloper/Portfolio-Mobile",
 },
@@ -27,7 +27,7 @@ const projectData = [
   name : "Multi-Post Stories Gain+Glory 4",
   description : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
   featuredImage : "./images/Project-images/Snapshoot_Portfolio.png",
-  technologies : {lang1 : "ruby", lang2 : "html", lang3 : "css",lang4 :  "javascript"},
+  technologies : ["HTML","CSS","JavaScript"],
   liveLink : " https://mike-devloper.github.io/Portfolio-Mobile/",
   sourceLink : "https://github.com/Mike-devloper/Portfolio-Mobile",
 },
@@ -35,7 +35,7 @@ const projectData = [
   name : "Multi-Post Stories Gain+Glory 5",
   description : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
   featuredImage : "./images/Project-images/Snapshoot_Portfolio.png",
-  technologies : {lang1 : "ruby", lang2 : "html", lang3 : "css",lang4 :  "javascript"},
+  technologies : ["HTML","CSS","JavaScript"],
   liveLink : " https://mike-devloper.github.io/Portfolio-Mobile/",
   sourceLink : "https://github.com/Mike-devloper/Portfolio-Mobile",
 },
@@ -43,7 +43,7 @@ const projectData = [
   name : "Multi-Post Stories Gain+Glory 6",
   description : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
   featuredImage : "./images/Project-images/Snapshoot_Portfolio.png",
-  technologies : {lang1 : "ruby", lang2 : "html", lang3 : "css",lang4 :  "javascript"},
+  technologies : ["HTML","CSS","JavaScript"],
   liveLink : " https://mike-devloper.github.io/Portfolio-Mobile/",
   sourceLink : "https://github.com/Mike-devloper/Portfolio-Mobile",
 },
@@ -52,15 +52,14 @@ const projectData = [
   document.querySelector('.project_large_screen').innerHTML = projectData.map(
       (info) => `
       <div class="grid-container">
-          <div class="grid-item1"></div>
+          <div class="grid-item1"><img src= ${info.featuredImage} class="snapshoot1" alt="project image"/> </div>
               <div class="grid-item">
                   <div class="center1">
                       <h3 class="work_title">${info.name}</h3>
                       <div class="boxed_flex">
-                          <div class="boxed">${info.technologies.lang1}</div>
+                         <div class="boxed">${info.technologies.lang1}</div>
                           <div class="boxed">${info.technologies.lang2}</div>
                           <div class="boxed">${info.technologies.lang3}</div>
-                          <div class="boxed">${info.technologies.lang4}</div>
                       </div>
                     <form action="work.html">
                           <button type="button" class="button2 See_Project btn1">See Project</button>
