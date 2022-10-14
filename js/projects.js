@@ -8,42 +8,42 @@ const projectData = [
         sourceLink : "https://github.com/oguntayomicheal/Module-1-Microverse-Capstone-project-",
     },
     {
-      name : "Multi-Post Stories Gain+Glory 2",
+      name : "Multi-Post Stories",
       description : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
       featuredImage : "./images/Project-images/Snapshoot_Portfolio.png",
-      technologies : ["HTML","CSS","JavaScript"],
+      technologies : {lang1 : "HTML", lang2 : "CSS", lang3 : "JavaScript"},
       liveLink : " https://mike-devloper.github.io/Portfolio-Mobile/",
       sourceLink : "https://github.com/Mike-devloper/Portfolio-Mobile",
   },
   {
-    name : "Multi-Post Stories Gain+Glory 3",
+    name : "Multi-Post Stories",
     description : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
     featuredImage : "./images/Project-images/Snapshoot_Portfolio.png",
-    technologies : ["HTML","CSS","JavaScript"],
+    technologies : {lang1 : "HTML", lang2 : "CSS", lang3 : "JavaScript"},
     liveLink : " https://mike-devloper.github.io/Portfolio-Mobile/",
     sourceLink : "https://github.com/Mike-devloper/Portfolio-Mobile",
 },
 {
-  name : "Multi-Post Stories Gain+Glory 4",
+  name : "Multi-Post Stories",
   description : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
   featuredImage : "./images/Project-images/Snapshoot_Portfolio.png",
-  technologies : ["HTML","CSS","JavaScript"],
+  technologies : {lang1 : "HTML", lang2 : "CSS", lang3 : "JavaScript"},
   liveLink : " https://mike-devloper.github.io/Portfolio-Mobile/",
   sourceLink : "https://github.com/Mike-devloper/Portfolio-Mobile",
 },
 {
-  name : "Multi-Post Stories Gain+Glory 5",
+  name : "Multi-Post Stories",
   description : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
   featuredImage : "./images/Project-images/Snapshoot_Portfolio.png",
-  technologies : ["HTML","CSS","JavaScript"],
+  technologies : {lang1 : "HTML", lang2 : "CSS", lang3 : "JavaScript"},
   liveLink : " https://mike-devloper.github.io/Portfolio-Mobile/",
   sourceLink : "https://github.com/Mike-devloper/Portfolio-Mobile",
 },
 {
-  name : "Multi-Post Stories Gain+Glory 6",
+  name : "Multi-Post Stories",
   description : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
   featuredImage : "./images/Project-images/Snapshoot_Portfolio.png",
-  technologies : ["HTML","CSS","JavaScript"],
+  technologies :{lang1 : "HTML", lang2 : "CSS", lang3 : "JavaScript"},
   liveLink : " https://mike-devloper.github.io/Portfolio-Mobile/",
   sourceLink : "https://github.com/Mike-devloper/Portfolio-Mobile",
 },
@@ -87,7 +87,6 @@ document.querySelector('.project').innerHTML = projectData.map(
             <div class="boxed_flex_pop">
                         <div class="boxed_pop">${info.technologies.lang1}</div>
                         <div class="boxed_pop">${info.technologies.lang2}</div>
-                        <div class="boxed_pop">${info.technologies.lang3}</div>
                         <div class="boxed_pop">${info.technologies.lang3}</div>
             </div>
           </div>
