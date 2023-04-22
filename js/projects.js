@@ -4,7 +4,7 @@ const projectData = [
         description : "This is a website for learners to check out Science Facts, famous scientists, and also ongoing scientific research works.",
         featuredImage : "./images/Project-images/Sci_facts.png",
         technologies : {lang1 : "HTML", lang2 : "CSS", lang3 : "JavaScript"},
-        liveLink : "https://oguntayomicheal.github.io/Module-1-Microverse-Capstone-project-/",
+        liveLink : "https://elaborate-llama-b5dc77.netlify.app/",
         sourceLink : "https://github.com/oguntayomicheal/Module-1-Microverse-Capstone-project-",
     },
     {
