@@ -8,12 +8,12 @@ const projectData = [
         sourceLink : "https://github.com/oguntayomicheal/Module-1-Microverse-Capstone-project-",
     },
     {
-      name : "Multi-Post Stories",
-      description : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
-      featuredImage : "./images/Project-images/Snapshoot_Portfolio.png",
-      technologies : {lang1 : "HTML", lang2 : "CSS", lang3 : "JavaScript"},
-      liveLink : " https://mike-devloper.github.io/Portfolio-Mobile/",
-      sourceLink : "https://github.com/Mike-devloper/Portfolio-Mobile",
+      name : "Space Travelers Hub",
+      description : "A single web application for a company that provides commercial and scientific space travel services. The application will allow users to book rockets and join selected space missions",
+      featuredImage : "./images/Project-images/Space_travelers.png",
+      technologies : {lang1 : "React & Redux", lang2 : "HTML/CSS", lang3 : "JavaScript"},
+      liveLink : "https://space-travelers-react-project.vercel.app/",
+      sourceLink : "https://github.com/Masouma864/Space-Travelers-React-Project",
   },
   {
     name : "Multi-Post Stories",
