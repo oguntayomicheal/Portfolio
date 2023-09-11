@@ -1,6 +1,17 @@
 #header_display {
   width: 100%;
-  height: 100%;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  height: 40px;
+  background-color: white;
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 #menu {
@@ -72,14 +83,8 @@
   margin-right: 20px;
 }
 
-.header {
-  display: flex;
-  justify-content: space-between;
-  align-items: baseline;
-}
-
 #headline {
-  height: 726px;
+  height: auto;
   background-image: url(images/Headline-bgd-img.png);
   background-repeat: no-repeat;
   background-size: 100%;
@@ -181,7 +186,7 @@ a {
     display: inline;
     padding: 0;
     position: absolute;
-    top: 16px;
+    top: 10px;
     font-family: Inter, Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: 600;
@@ -196,6 +201,12 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    height: 40px;
+    background-color: white;
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
   }
 
   .nav {
@@ -204,7 +215,7 @@ a {
   }
 
   #headline {
-    height: 650px;
+    /* height: 650px; */
     background-image: url(images/Desktop_images/Header-llustration-desktop@2x.png);
     background-repeat: no-repeat;
     background-size: 100%;
