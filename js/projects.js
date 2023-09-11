@@ -53,7 +53,8 @@ const projectData = [
   document.querySelector('.project_large_screen').innerHTML = projectData.map(
       (info) => `
       <div class="grid-container">
-          <div class="grid-item1"><img src= ${info.featuredImage} class="snapshoot1" alt="project image"/> </div>
+          <div class="grid-item1"><img src= ${info.featuredImage} class="snapshoot1" alt="project image"/> 
+          </div>
               <div class="grid-item">
                   <div class="center1">
                       <h3 class="work_title">${info.name}</h3>

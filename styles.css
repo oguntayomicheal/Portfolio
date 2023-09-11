@@ -58,6 +58,7 @@
 #close_icon {
   float: right;
   margin-right: 20px;
+  cursor: pointer;
 }
 
 #navbar,
@@ -212,6 +213,14 @@ a {
   display: grid;
   grid-template-columns: 100%;
   grid-template-rows: auto auto;
+}
+
+.grid-container:hover {
+  border: #008552 1px solid;
+}
+
+button:hover {
+  cursor: pointer;
 }
 
 @media screen and (min-width: 768px) {
@@ -456,10 +465,11 @@ a {
 }
 
 .button2 {
-  border: none;
+  border: 2px solid #36b37f ;
   border-radius: 4px;
-  background-color: #36b37f;
-  color: white;
+
+  background-color: white;
+  color: #36b37f;
   height: 30px;
   text-align: center;
   font-family: Inter, Arial, Helvetica, sans-serif;
@@ -468,8 +478,11 @@ a {
   font-size: 17px;
   line-height: 24px;
   padding: 0 8px;
-  transition: all;
-  transition-duration: 2s;
+}
+
+.button2:hover {
+  background-color: #36b37f;
+  color: white;
 }
 
 /* About me */
@@ -504,10 +517,10 @@ a {
   display: grid;
   grid-template-columns: 100%;
   grid-template-rows: auto;
+}
 
-  /* display: flex;
-  flex-direction: column;
-  justify-content: space-around; */
+.lang_container:hover {
+  border: 1px solid #36b37f;
 }
 
 .lang_style {
@@ -589,10 +602,10 @@ input {
 }
 
 .button3 {
-  border: none;
+  border: 1px solid #36b37e;
   border-radius: 4px;
-  background-color: #36b37f;
-  color: white;
+  background-color: white;
+  color: #36b37f;
   height: 40px;
   text-align: center;
   font-family: Inter, Arial, Helvetica, sans-serif;
@@ -604,8 +617,11 @@ input {
   padding: 0 20px;
   display: flex;
   flex-direction: column;
-  transition: all;
-  transition-duration: 2s;
+}
+
+.button3:hover {
+  background-color: #36b37f;
+  color: white;
 }
 
 .email_flex {
@@ -793,6 +809,7 @@ input {
   display: flex;
   flex-direction: row-reverse;
   padding-top: 40px;
+  cursor: pointer;
 }
 
 /* Email Error message */
