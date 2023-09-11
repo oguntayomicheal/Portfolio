@@ -92,7 +92,8 @@
 }
 
 #typed-output,
-#stack_output, .typed-cursor {
+#stack_output,
+.typed-cursor {
   font-family: Inter, Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -100,7 +101,6 @@
   line-height: 28px;
   text-align: center;
   color: #36b37e;
-
   height: 20px;
 }
 
@@ -465,9 +465,8 @@ button:hover {
 }
 
 .button2 {
-  border: 2px solid #36b37f ;
+  border: 2px solid #36b37f;
   border-radius: 4px;
-
   background-color: white;
   color: #36b37f;
   height: 30px;
@@ -631,6 +630,7 @@ input {
 
 .email {
   width: 327px;
+
   /* height: 164px; */
   font-family: Inter, Arial, Helvetica, sans-serif;
   font-style: normal;
@@ -647,7 +647,6 @@ input {
 .project_background {
   display: none;
   width: 100%;
-  height: 100vh;
   position: fixed;
   top: 0;
   left: 0;
@@ -655,6 +654,7 @@ input {
   bottom: 0;
   overflow: auto;
   background: #c1c7d0c2;
+  z-index: 100;
 }
 
 .project-container {
