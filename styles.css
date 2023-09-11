@@ -90,6 +90,39 @@
   background-size: 100%;
 }
 
+#typed-output,
+#stack_output, .typed-cursor {
+  font-family: Inter, Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  color: #36b37e;
+
+  height: 20px;
+}
+
+#stack_output {
+  margin: 0;
+}
+
+#typeEffect_div {
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; */
+  width: 300px;
+  margin: auto;
+}
+
+#effect_span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
 .center {
   display: flex;
   flex-direction: column;
@@ -233,7 +266,7 @@ a {
   }
 
   .green_box,
-  .header,
+  header,
   .email,
   #contact_form_img {
     display: none;
