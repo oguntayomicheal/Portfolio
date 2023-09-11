@@ -95,12 +95,12 @@ document.querySelector('.project').innerHTML = projectData.map(
 
           <div class="desk_pop_btn">
             <div class="desk_poplinks">
-            <a href="${info.liveLink}" class="desk_pop_button">
+            <a href="${info.liveLink}" class="desk_pop_button" target="_blank">
               See Live
               <img src="./icons/popup/live_Icon.png" alt="live site icon" class="pop_icon"/>
             </a>
                <br>
-            <a href="${info.sourceLink}" class="desk_pop_button">
+            <a href="${info.sourceLink}" class="desk_pop_button" target="_blank">
                See Source
                 <img src="./icons/popup/Icon_GitHub.png" alt="github icon" class="pop_icon"/></a>
              </div>
@@ -113,12 +113,12 @@ document.querySelector('.project').innerHTML = projectData.map(
         </div>
         <div class="pop_button_center">
         <div class="poplinks">
-             <a href="${info.liveLink}" class="pop_button">
+             <a href="${info.liveLink}" class="pop_button" target="_blank">
             See Live
             <img src="./icons/popup/live_Icon.png" alt="live site icon" class="pop_icon"/>
             </a>
             <br>
-            <a href="${info.sourceLink}" class="pop_button">
+            <a href="${info.sourceLink}" class="pop_button" target="_blank">
             See Source
             <img src="./icons/popup/Icon_GitHub.png" alt="github icon" class="pop_icon"/></a>
         </div>
