@@ -185,6 +185,7 @@
   display: flex;
   justify-content: center;
   gap: 20px;
+  margin-bottom: 0;
 }
 
 a {
@@ -276,7 +277,6 @@ button:hover {
 
   .green_box,
   header,
-  .email,
   #contact_form_img {
     display: none;
   }
@@ -631,7 +631,7 @@ input {
 
 .email {
   width: 327px;
-  height: 164px;
+  /* height: 164px; */
   font-family: Inter, Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -640,6 +640,7 @@ input {
   color: #172b4d;
   text-align: center;
   padding-left: 50px;
+  margin-top: 0;
 }
 
 /* Popup window */
