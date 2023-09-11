@@ -1,20 +1,23 @@
 const projectData = [
-    {
-        name : "Science Fun Facts",
-        description : "This is a website for learners to check out Science Facts, famous scientists, and also ongoing scientific research works.",
-        featuredImage : "./images/Project-images/Sci_facts.png",
-        technologies : {lang1 : "HTML", lang2 : "CSS", lang3 : "JavaScript"},
-        liveLink : "https://elaborate-llama-b5dc77.netlify.app/",
-        sourceLink : "https://github.com/oguntayomicheal/Module-1-Microverse-Capstone-project-",
-    },
-    {
-      name : "Crypto Hub",
-      description : "A web application for users to check out crypto coins and see current details about each coins. Crypto data is been fetched from an API which helps update the details to the current one.",
-      featuredImage : "./images/Project-images/Crypto_hub.png",
-      technologies : {lang1 : "React & Redux", lang2 : "HTML/CSS", lang3 : "JavaScript"},
-      liveLink : "https://lighthearted-palmier-bad876.netlify.app/",
-      sourceLink : "https://github.com/oguntayomicheal/Crypto-Hub",
+  {
+    name : "Crypto Hub",
+    description : "A web application for users to check out crypto coins and see current details about each coins. Crypto data is been fetched from an API which helps update the details to the current one.",
+    featuredImage : "./images/Project-images/Crypto_hub.png",
+    technologies : {lang1 : "React & Redux", lang2 : "HTML/CSS", lang3 : "JavaScript"},
+    liveLink : "https://lighthearted-palmier-bad876.netlify.app/",
+    sourceLink : "https://github.com/oguntayomicheal/Crypto-Hub",
+},
+
+  {
+    name : "Budget App",
+    description : "Budget-App is a mobile web application where you can manage your budget: you have a list of transactions associated with a category, so that you can see how much money you spent and on what.",
+    featuredImage : "./images/Project-images/budget_app.png",
+    technologies : {lang1 : "Ruby on Rails", lang2 : "RSPEC", lang3 : "PostgreSQL"},
+    liveLink : "https://budget-app-jvqh.onrender.com/",
+    sourceLink : "https://github.com/oguntayomicheal/Budget-App",
   },
+
+
   {
       name : "Space Travelers Hub",
       description : "A single web application for a company that provides commercial and scientific space travel services. The application will allow users to book rockets and join selected space missions",
@@ -33,12 +36,12 @@ const projectData = [
   sourceLink : "https://github.com/Mike-devloper/Portfolio-Mobile",
 },
 {
-  name : "School Library",
-  description : "School Library is a ruby based tool used to record books stored in a library and who borrows them. The app allows users to add new students or teachers, new books, and save records of who borrowed a given book and the date it was borrowed.",
-  featuredImage : "./images/Project-images/Snapshoot_Portfolio.png",
-  technologies : {lang1 : "Ruby", lang2 : "RSPEC", lang3 : "Ruby Script"},
-  liveLink : "https://github.com/oguntayomicheal/School-Library-OOP",
-  sourceLink : "https://github.com/oguntayomicheal/School-Library-OOP",
+  name : "Science Fun Facts",
+  description : "This is a website for learners to check out Science Facts, famous scientists, and also ongoing scientific research works.",
+  featuredImage : "./images/Project-images/Sci_facts.png",
+  technologies : {lang1 : "HTML", lang2 : "CSS", lang3 : "JavaScript"},
+  liveLink : "https://elaborate-llama-b5dc77.netlify.app/",
+  sourceLink : "https://github.com/oguntayomicheal/Module-1-Microverse-Capstone-project-",
 },
 {
   name : "Math magicians",
