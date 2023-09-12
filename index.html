@@ -19,16 +19,16 @@
                 <a class="nav" href="#form_flex">Contact</a>
             </nav>        
     </div>
-    <div id="header_display">
-    <header class="header">
+    <header id="header_display">
+    <div class="header">
         <div>
             <a href="index.html" id="welcome">Welcome</a>
         </div>
         <nav>
            <a href="#"><img src="icons/menu.png" class="material-icons" alt="menu icon" id="menu_icon"></a>
         </nav>  
-    </header>
     </div>
+    </header>
     <div id="menu"> 
     <div id="menu_flex">
         <div id="menulist">
@@ -50,28 +50,37 @@
             </h1>
             <p class="story"> I can help you build a product, feature or website. Kindly look through some of my work and
                 experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.</p>   
-    </div>
+        </div>
+        <div id="typeEffect_div">
+            <p id="stack_output">My Tech Stacks</p>
+            <span id="effect_span">
+                <p id="typed-output"></p>
+            </span>
+                       
+        </div>
+      
+
         <div >
             <ul class="icons">
                 <li>
-                    <a href="https://github.com/oguntayomicheal"><i class="fa fa-github"></i></a>               
+                    <a href="https://github.com/oguntayomicheal" target="_blank"><i class="fa fa-github"></i></a>               
                 </li>
                 <li> 
-                    <a href="www.linkedin.com/in/ogunsmicky"><i class="fa fa-linkedin"></i></a>
+                    <a href="https://www.linkedin.com/in/ogunsmicky" target="_blank"><i class="fa fa-linkedin"></i></a>
                 </li>
                 <li>
-                    <a href="https://twitter.com/Oguns_micky"><i class="fa fa-twitter"></i></a>                                   
+                    <a href="https://twitter.com/Oguns_micky" target="_blank"><i class="fa fa-twitter"></i></a>                                   
                 </li>
                 <li> 
-                    <a href="www.medium.com/mike-dev"> <i class="fa fa-medium"></i></a>
+                    <a href="https://www.medium.com/@oguntayomicheal1" target="_blank"> <i class="fa fa-medium"></i></a>
                 </li>
                 <li> 
-                    <a href="www.angellist.com/mike-dev"> <i class="fa fa-angellist"></i></a>
+                    <a href="https://wellfound.com/u/micheal-oguntayo" target="_blank"> <i class="fa fa-angellist"></i></a>
                 </li>
             </ul> 
         </div>
-        <div class="arrow-down">
-            <img src="icons/Disabled.svg" class="disabled" alt="disabled icon">
+        <div class="arrow-down">         
+            <a class="nav" href="#my_works"><img src="icons/Disabled.svg" class="disabled" alt="disabled icon"></a>
         </div>
 
     </section>
@@ -107,12 +116,15 @@
             <div class="lang_container">
                 <div class="center">
                     <img src="images/icon-languages.png" alt="Language icon">
-                <p class="lang_style">Languages</p>
+                <p class="lang_style">Stacks</p>
                 <div class="boxed_flex boxed_flex_margin">
-                    <div class="lang_boxed">Ruby on rails</div>
-                    <div class="lang_boxed">css</div>
                     <div class="lang_boxed">JavaScript</div>
-                    <div class="lang_boxed">html</div>
+                    <div class="lang_boxed">React</div>
+                    <div class="lang_boxed">Redux</div>
+                    <div class="lang_boxed">Ruby</div>
+                    <div class="lang_boxed">Ruby on rails</div>                                  
+                    <div class="lang_boxed">HTML5</div>
+                    <div class="lang_boxed">CSS3</div>                  
                 </div>  
             </div>
                 
@@ -124,13 +136,14 @@
             <div class="lang_container">
                 <div class="center">
                     <img src="images/icon-frameworks.png" alt="Language icon">
-                <p class="lang_style">Frameworks</p>
+                <p class="lang_style">Tools</p>
                 <div class="boxed_flex boxed_flex_margin">
-                    <div class="lang_boxed">Bootstrap</div>
-                    <div class="lang_boxed">Ruby on rails</div>
+                    <div class="lang_boxed">Jest</div>
+                    <div class="lang_boxed">Capybara</div>
                     <div class="lang_boxed">RSpec</div>
-                    <!-- <div class="lang_boxed">Capybara</div> -->
-                    <!-- <div class="lang_boxed">Selenium</div> -->
+                    <div class="lang_boxed">Ruby gems</div>
+                    <div class="lang_boxed">Chrome dev tools</div>
+                    <div class="lang_boxed">Netlify</div>
                 </div>  
             </div>
                 
@@ -145,9 +158,11 @@
                 <div class="boxed_flex boxed_flex_margin">
                     <div class="lang_boxed">Codekit</div>
                     <div class="lang_boxed">GitHub</div>
-                    <div class="lang_boxed">Gitlab</div>
-                    <div class="lang_boxed">Codepen</div>
-                    <div class="lang_boxed">Terminal</div>
+                    <div class="lang_boxed">Gitlab</div>                 
+                    <div class="lang_boxed">Git</div>
+                    <div class="lang_boxed">PostgreSQL</div>
+                    <div class="lang_boxed">Teamwork</div>
+                    <div class="lang_boxed">Remote Collaboration</div>
                 </div>  
             </div>
                 
@@ -161,7 +176,7 @@
                 <p class="h2_style h2_style_form">I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</p>
                 
                 <div class="center1" >
-                    <form action="https://formspree.io/f/xvoyggzp" method="POST" id="form">
+                    <form action="https://formspree.io/f/xvoyggzp" method="POST" id="form" target="_blank">
                         <input type="text" name="name" placeholder="full name" maxlength="30" class="stretch" id="saveName1" required>
                         <input type="email" name="email" placeholder="Email address"  class="stretch" id="saveEmail" required>
                         
@@ -179,19 +194,19 @@
         <hr id="footer_hr_line">
         <ul class="icons">
             <li>
-                <a href="https://github.com/oguntayomicheal"><i class="fa fa-github"></i></a>               
+                <a href="https://github.com/oguntayomicheal" target="_blank"><i class="fa fa-github"></i></a>               
             </li>
             <li> 
-                <a href="www.linkedin.com/in/ogunsmicky"><i class="fa fa-linkedin"></i></a>
+                <a href="https://www.linkedin.com/in/ogunsmicky" target="_blank"><i class="fa fa-linkedin"></i></a>
             </li>
             <li>
-                <a href="https://twitter.com/Oguns_micky"><i class="fa fa-twitter"></i></a>                                   
+                <a href="https://twitter.com/Oguns_micky" target="_blank"><i class="fa fa-twitter"></i></a>                                   
             </li>
             <li> 
-                <a href="www.medium.com/mike-dev"> <i class="fa fa-medium"></i></a>
+                <a href="https://www.medium.com/@oguntayomicheal1" target="_blank"> <i class="fa fa-medium"></i></a>
             </li>
             <li> 
-                <a href="www.angellist.com/mike-dev"> <i class="fa fa-angellist"></i></a>
+                <a href="https://wellfound.com/u/micheal-oguntayo" target="_blank"> <i class="fa fa-angellist"></i></a>
             </li>
         </ul> 
             <div id="contact_form_img">
@@ -208,7 +223,8 @@
   <script src="./js/projects.js" type="module"></script>
   <script src="./js/emailvalidate.js"></script>
   <script src="./js/localStorage.js"></script>
-
+  <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+  <script src="./js/typeEffect.js" type="module"></script>
 
 </body>
 

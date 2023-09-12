@@ -1,20 +1,23 @@
 const projectData = [
-    {
-        name : "Science Fun Facts",
-        description : "This is a website for learners to check out Science Facts, famous scientists, and also ongoing scientific research works.",
-        featuredImage : "./images/Project-images/Sci_facts.png",
-        technologies : {lang1 : "HTML", lang2 : "CSS", lang3 : "JavaScript"},
-        liveLink : "https://elaborate-llama-b5dc77.netlify.app/",
-        sourceLink : "https://github.com/oguntayomicheal/Module-1-Microverse-Capstone-project-",
-    },
-    {
-      name : "Crypto Hub",
-      description : "A web application for users to check out crypto coins and see current details about each coins. Crypto data is been fetched from an API which helps update the details to the current one.",
-      featuredImage : "./images/Project-images/Crypto_hub.png",
-      technologies : {lang1 : "React & Redux", lang2 : "HTML/CSS", lang3 : "JavaScript"},
-      liveLink : "https://lighthearted-palmier-bad876.netlify.app/",
-      sourceLink : "https://github.com/oguntayomicheal/Crypto-Hub",
+  {
+    name : "Crypto Hub",
+    description : "A web application for users to check out crypto coins and see current details about each coins. Crypto data is been fetched from an API which helps update the details to the current one.",
+    featuredImage : "./images/Project-images/Crypto_hub.png",
+    technologies : {lang1 : "React & Redux", lang2 : "HTML/CSS", lang3 : "JavaScript"},
+    liveLink : "https://lighthearted-palmier-bad876.netlify.app/",
+    sourceLink : "https://github.com/oguntayomicheal/Crypto-Hub",
+},
+
+  {
+    name : "Budget App",
+    description : "Budget-App is a mobile web application where you can manage your budget: you have a list of transactions associated with a category, so that you can see how much money you spent and on what.",
+    featuredImage : "./images/Project-images/budget_app.png",
+    technologies : {lang1 : "Ruby on Rails", lang2 : "RSPEC", lang3 : "PostgreSQL"},
+    liveLink : "https://budget-app-jvqh.onrender.com/",
+    sourceLink : "https://github.com/oguntayomicheal/Budget-App",
   },
+
+
   {
       name : "Space Travelers Hub",
       description : "A single web application for a company that provides commercial and scientific space travel services. The application will allow users to book rockets and join selected space missions",
@@ -33,12 +36,12 @@ const projectData = [
   sourceLink : "https://github.com/Mike-devloper/Portfolio-Mobile",
 },
 {
-  name : "School Library",
-  description : "School Library is a ruby based tool used to record books stored in a library and who borrows them. The app allows users to add new students or teachers, new books, and save records of who borrowed a given book and the date it was borrowed.",
-  featuredImage : "./images/Project-images/Snapshoot_Portfolio.png",
-  technologies : {lang1 : "Ruby", lang2 : "RSPEC", lang3 : "Ruby Script"},
-  liveLink : "https://github.com/oguntayomicheal/School-Library-OOP",
-  sourceLink : "https://github.com/oguntayomicheal/School-Library-OOP",
+  name : "Science Fun Facts",
+  description : "This is a website for learners to check out Science Facts, famous scientists, and also ongoing scientific research works.",
+  featuredImage : "./images/Project-images/Sci_facts.png",
+  technologies : {lang1 : "HTML", lang2 : "CSS", lang3 : "JavaScript"},
+  liveLink : "https://elaborate-llama-b5dc77.netlify.app/",
+  sourceLink : "https://github.com/oguntayomicheal/Module-1-Microverse-Capstone-project-",
 },
 {
   name : "Math magicians",
@@ -53,7 +56,8 @@ const projectData = [
   document.querySelector('.project_large_screen').innerHTML = projectData.map(
       (info) => `
       <div class="grid-container">
-          <div class="grid-item1"><img src= ${info.featuredImage} class="snapshoot1" alt="project image"/> </div>
+          <div class="grid-item1"><img src= ${info.featuredImage} class="snapshoot1" alt="project image"/> 
+          </div>
               <div class="grid-item">
                   <div class="center1">
                       <h3 class="work_title">${info.name}</h3>
@@ -94,12 +98,12 @@ document.querySelector('.project').innerHTML = projectData.map(
 
           <div class="desk_pop_btn">
             <div class="desk_poplinks">
-            <a href="${info.liveLink}" class="desk_pop_button">
+            <a href="${info.liveLink}" class="desk_pop_button" target="_blank">
               See Live
               <img src="./icons/popup/live_Icon.png" alt="live site icon" class="pop_icon"/>
             </a>
                <br>
-            <a href="${info.sourceLink}" class="desk_pop_button">
+            <a href="${info.sourceLink}" class="desk_pop_button" target="_blank">
                See Source
                 <img src="./icons/popup/Icon_GitHub.png" alt="github icon" class="pop_icon"/></a>
              </div>
@@ -112,12 +116,12 @@ document.querySelector('.project').innerHTML = projectData.map(
         </div>
         <div class="pop_button_center">
         <div class="poplinks">
-             <a href="${info.liveLink}" class="pop_button">
+             <a href="${info.liveLink}" class="pop_button" target="_blank">
             See Live
             <img src="./icons/popup/live_Icon.png" alt="live site icon" class="pop_icon"/>
             </a>
             <br>
-            <a href="${info.sourceLink}" class="pop_button">
+            <a href="${info.sourceLink}" class="pop_button" target="_blank">
             See Source
             <img src="./icons/popup/Icon_GitHub.png" alt="github icon" class="pop_icon"/></a>
         </div>
